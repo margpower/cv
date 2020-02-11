@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Information</title>
+</head>
+<body>
+  <h3>Contact Information</h3>
+  <p>Phone Number: +(57)318.589.9382</p>
+  <p>Email Address: margarita@gmail.com</p>
+<p>Address: Somewhere in Bogotá.Colombia</p>
+<hr>
+<form action="mailto:m@gmail.com" method="post" enctype="text/plain">
+  <!-- the action is what we want the form to do, which it is to sent an email to xx email address and the enctype is what we use to tell teh form how we want the text to be returned to us-->
+  <label for="Name">Your Name:</label>
+  <input type="text" name="YourName" value=""><br>
+  <label for="Email Address">Your Email:</label>
+  <input type="text" name="YourEmail" value=""><br>
+  <label for="Write your Messsage here">Your Messsage:</label><br>
+  <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+  <input type="submit" name="">
+  <!--by adding the name tag in the input section, when we receive the email, it helps us understand what it is that we are receiving -->
+</form>
+</body>
+</html>
